@@ -1,0 +1,15 @@
+function mostrarLoadLogin() {
+	div = document.getElementById('preload');
+	div.style.display = '';
+
+	div_btn = document.getElementById('btn_entrar_login');
+	div_btn.setAttribute('style', 'display:none');	
+}
+
+function mostrarLoadSave() {
+	div = document.getElementById('preload');
+	div.style.display = '';
+
+	div_btn = document.getElementById('btn_grabar_preload');
+	div_btn.setAttribute('style', 'display:none');	
+}

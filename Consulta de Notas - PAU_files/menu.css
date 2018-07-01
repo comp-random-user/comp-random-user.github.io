@@ -1,0 +1,70 @@
+#menu
+{
+    float: left;
+	margin: 0 1em 0 7px;
+	display: inline;
+	padding-bottom: 12px;
+	width: 220px;
+	background: #f5f5f5 url('../images/fondoMenu.jpg') no-repeat bottom left;
+}
+
+#menu ul#menuPrincipal li
+{
+   list-style-type: none;
+   margin-left: 1em;
+   margin-right: 1em;
+   line-height: 3em;
+   font-size: 0.8em;
+}
+
+#menu h2
+{
+   text-transform: uppercase;
+   color: #ffffff;
+   background: #9d4f00 url('../images/fondoTituloMenu.jpg') no-repeat left bottom;
+   font-size: 0.8em;
+   font-weight: normal;
+   padding-left: 2.5em;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+
+#menu ul#menuPrincipal
+{
+   background: #f5f5f5;
+   color: #9d4f00;
+   padding-bottom: 2em;
+   padding-top: 0.5em;
+   border-left: 1px solid #e3e3e3;
+   border-right: 1px solid #e3e3e3;
+}
+
+#menu ul#menuPrincipal a
+{
+   color: #666666;
+   background: #f5f5f5;
+   text-decoration: none;
+   padding-left: 18px;
+}
+
+#menu ul#menuPrincipal a:hover
+{
+   background: #f5f5f5 url('../images/rollover.gif') no-repeat left center;
+}
+
+#menu ul#menuPrincipal li.opcionActual
+{
+   background: #f5f5f5 url('../images/opcionActual.gif') no-repeat left center;
+   padding-left: 18px;
+}
+
+#menu ul#menuPrincipal li a.opcionActual
+{
+   background: #f5f5f5 url('../images/opcionActual.gif') no-repeat left center;
+   padding-left: 18px;
+}
+
+.aqui {
+	background: #f5f5f5 url('../images/opcionActual.gif') no-repeat left center;
+   	padding-left: 18px;
+}

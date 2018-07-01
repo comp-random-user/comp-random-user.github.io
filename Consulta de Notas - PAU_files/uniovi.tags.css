@@ -1,0 +1,389 @@
+/* ESTILOS PREDEFINIDOS PARA LOS COMPONENTES DEL FRAMEWORK DE UNIOVI */
+
+/* PAGINATOR */
+
+.paginator_wrapper{
+	background-color: #FFFFFF;
+	color: #333333;
+	position: relative;
+	width: auto;
+	margin: 1%;
+	padding: 1%;
+	text-align: left;
+	border: 2px solid #999999;	
+}
+
+#paginator_panel_navegacion{
+   color: #9c4f00;
+   background: #ffffff;
+   font-size: 0.85em;
+   margin: 1em 0;
+}
+
+#paginator_pages input:hover{
+	background-color: #CCCCCC;
+	border:none;
+	color:#000000;
+	text-decoration: none;
+}
+
+#paginator_elements{
+	position: relative;
+	margin: 1% 0% 0% 0%;
+	padding: 0%;
+	width: 100%;
+}
+
+.paginator_pagestext{
+	margin: 0% 1%;
+	padding: 0%;
+}
+
+.paginator_currentpage{
+	font-weight: bold;
+	font-size: 105%;
+	border:none;
+  	color: #9c4f00;
+   	background: #ffffff;
+	text-decoration: none;
+}
+
+.paginator_pagenumber{
+	border:none;
+    color: #666666;
+    background: #ffffff;
+	text-decoration: none;
+}
+
+/* BREADCRUMB */
+
+.breadcrumb_wrapper{
+	float: left;
+}
+
+.actual{
+	color: #9d4f00;
+   	background: #ffffff;
+}
+
+/* MENU */
+
+.menu_wrapper {
+    float: left;
+	margin: 0 1em 0 7px;
+	display: inline;
+	padding-bottom: 12px;
+	width: 220px;
+	background: #f5f5f5 url('../images/fondoMenu.jpg') no-repeat bottom left;
+}
+
+.menuPrincipal {
+   background: #f5f5f5;
+   color: #9d4f00;
+   padding-bottom: 2em;
+   padding-top: 0.5em;
+   border-left: 1px solid #e3e3e3;
+   border-right: 1px solid #e3e3e3;
+}
+
+.menuPrincipal li {
+   list-style-type: none;
+   margin-left: 1em;
+   margin-right: 1em;
+   line-height: 3em;
+   font-size: 0.8em;
+}
+
+
+.menuPrincipal a {
+   	color: #666666;
+   	background: #f5f5f5;
+   	text-decoration: none;
+   	padding-left: 18px;
+   	cursor: text;
+	outline:none;
+}
+
+.menuPrincipal a:hover {
+   	background: #f5f5f5 url('../images/rollover.gif') no-repeat left center;
+   	cursor: text;
+	outline:none;
+}
+
+.menuPrincipal .aqui{
+    background: #f5f5f5 url('../images/opcionActual.gif') no-repeat left center;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+/* DIALOG */
+
+.dialog_wrapper{
+	background-color: #FFFFFF;
+	color: #333333;
+	position: relative;
+	width: auto;
+	margin: 1%;
+	padding: 1%;
+	text-align: left;
+	border: 2px solid #999999;	
+}
+
+.dialog_buttons {
+	position: relative;
+	width: 100%;
+	margin: 1% 0%;
+	padding: 0%;
+	text-align: center;	
+}
+
+.dialog_confirmationMessage {
+	position: relative;
+	with: 96%;
+	margin: 0%;
+	padding: 1% 2%;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.dialog_assistantMessage {
+	position: relative;
+	with: 96%;
+	margin: 0%;
+	padding: 0% 2% 1% 2%;
+	font-size: 90%;
+	
+}
+
+/* GENERIC DIALOG */
+
+.genericDialog_wrapper{
+	position: relative;
+	width: 35%;
+	margin: 1%;
+	padding: 1%;
+	text-align: left;
+}
+
+.listEntity {
+	position:relative;
+	float:left;
+	clear:left;
+	margin-right:0%;
+	width:70%;
+}
+
+.genericDialogButton {
+	position:relative;
+	width:29%;
+	float:right;
+	clear:right;
+	margin:0;
+	padding:0;
+}
+
+.genericDialogButton input{
+	float:left;
+	clear:right;
+	margin:0 0 0 0;
+	padding:0;
+}
+
+.styleTittle{
+	position: relative;
+	with: 96%;
+	margin: 0%;
+	padding: 1% 2%;
+	font-size: 90%;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/**************************************************
+ *****	Estilos para componentes tomahawk.	  *****
+ **************************************************/
+
+/****************************************
+****			Menu				*****
+****************************************/
+
+.subnavigation {
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 0%;
+margin-bottom: .5%;
+padding: 0px 0px 20px 0px;
+border: 1px solid #546359;
+background-color: #EAF4F4;
+width: 90%;
+}
+
+.subnavigation_outer {
+float: left;
+width: 220px;
+padding: 0px;
+margin: 0px 0px 0px 0px;
+}
+.subnavigation_outer h1  {
+font-size: 1.5em;
+margin: 0px;
+padding: 0px 0px 15px 0px;
+}
+ 
+.subnavigation ul li  a {
+display:block;
+background-color: #D1E4E4;
+color: #294747;
+text-decoration: none;
+border-bottom: 1px solid #87A8A8;
+padding: 2px 20px;
+margin: 0px;
+}
+
+.subnavigation ul li a:visited {
+	color:#294747;
+}
+.subnavigation ul li a:hover {
+	color: #FFFFFF;  
+	background-color: #87A8A8;
+}
+.subnavigation ul li a:active {
+	 color:#294747;
+ }
+
+.subnavigation ul li a.selected {
+	font-weight: bold;
+	color:#294747;
+	background-color: #FFFFFF;
+}
+
+.subnavigation ul ul li a {
+	padding: 2px 20px 2px 25px;
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+
+.subnavigation ul ul li ul li a {
+	padding: 2px 20px 2px 30px;
+	margin: 0px;
+}
+
+.subnavigation ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px .5% 0px 0px;
+	text-align: left;
+}
+
+.subnavigation li{
+	margin: 0px;
+	padding: 0px;
+	display:inline;
+}
+
+.subnavigation ul.mypage li a {
+	padding: 2px 20px 2px 20px;
+	margin: 0px;
+	background-color: #EAF4F4;
+}
+
+.subnavigation ul.mypage ul li a:hover{
+	color: #FFFFFF;  
+	background-color: #87A8A8;
+}
+
+.subnavigation .inactivo {
+	color:red;
+	padding: 2px 20px 2px 25px;
+}
+
+/****************************************
+****		Calendario				*****
+****************************************/
+
+.boton_popup {
+	font-family : verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+    font-weight: bold;
+}
+
+.anioMesCabecera {
+    background-color: #DDDDDD;
+    color: #000000;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.semanaCabecera {
+    background-color: #E7E7E7;
+    color: #000000;
+    text-align: center;
+    border: none;
+}
+
+.currentDayCell {
+    background-color: #DDDDDD;
+    color: #000000;
+    border: none;
+}
+
+.calendarHelpTextClass {
+	font-size: 11px;
+	color: #414b56;
+	font-weight: bold;
+}
+
+/****************************************
+****		arbol				*****
+****************************************/
+
+.tree {
+   lineheight: 18px;
+   font-family: arial, sans-serif;
+}
+
+.treenode {
+   padding: 2px 15px 2px 5px;
+}
+
+.treenode a {
+   text-decoration: none;
+}
+
+.treenodeSelected {
+   padding: 2px 15px 2px 5px;
+}
+
+.treenodeSelected a {
+   text-decoration: none;
+   font-weight: bold;
+}
+
+/****************************************
+****		Tabla ordenable			*****
+****************************************/
+
+.tablaClass {
+	font-family : verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+    padding: 2;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.cabeceraTabla {
+    background-color: #D1E4E4;
+    color: #000000;
+    padding: 3;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.filaClass {
+    background-color: #EAF4F4;
+}

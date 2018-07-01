@@ -1,0 +1,28 @@
+#pie
+{
+   padding: 1em;
+   font-size: 0.8em; 
+   clear: both;
+}
+
+#pie p
+{
+   background: #efefef url('../images/fondoPie.jpg') no-repeat center left;
+   color: #333333;
+   margin-top: 1em;
+   margin-left: -3px;
+   padding: 3px 0 5px 0;
+   text-align: center;
+}
+
+#pie p a
+{
+   background: #efefef;
+   color: #333333;
+   text-decoration: none;
+}
+
+#pie p a:hover
+{
+   text-decoration: underline;
+}

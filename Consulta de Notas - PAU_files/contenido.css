@@ -1,0 +1,197 @@
+#contenido {
+	margin: 1em 1em 1em 1em;
+}
+
+#contenido a {
+	background: transparent;
+	color: #9d4f00;
+}
+
+#contenido a:hover {
+	text-decoration: none;
+}
+
+#contenido h2 {
+	color: #9d4f00;
+	background: #ffffff;
+	font-size: 1.4em;
+	margin: 1em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#contenedor h2.login {
+	color: #9d4f00;
+	background: #ffffff;
+	font-size: 1 em;
+	margin: 1em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #9d4f00;
+	background: #ffffff;
+	font-size: 1.2em;
+	margin: 1em 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1em 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#contenido  form fieldset {
+	border: none;
+}
+
+#contenido  form#formularioPagina input {
+	width: 2em;
+}
+
+#contenido img.fotoDerecha {
+	float: right;
+	padding: 3px;
+	border: 1px solid #9d5001;
+	margin-right: 1em;
+}
+
+#contenido .textoCentro {
+	text-align: center;
+}
+
+#contenido p#aviso {
+	background: #e6d3bf;
+	color: #9d4f00;
+	text-align: center;
+	margin-top: 6em;
+	padding: 3px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#contenido span.derecha {
+	float: right;
+	display: inline;
+	background: #ffffff;
+	color: #9d4f00;
+}
+
+#contenido a img {
+	border: 0;
+}
+
+#contenido ul.listaOpciones {
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+#contenido ul.listaOpciones li {
+	list-style-type: none;
+	margin: 12px 3px;
+	background: #e6d3bf url('../images/itemCuestionario.gif') no-repeat left center;
+	color: #666666;
+	padding: 2px 5px 2px 28px;
+	font-size: 0.9em;
+	width: 22em;
+}
+
+#contenido ul.listaOpciones li a {
+	background: #e6d3bf;
+	color: #9d4f00;
+}
+
+#contenido ul.listaOpciones li a:hover {
+	text-decoration: none;
+}
+
+#contenido p {
+	margin: 0.5em 1em 0.5em 1em;
+}
+
+#contenido p.textoPequeno {
+	font-size: 0.85em;
+}
+
+.plan {
+	color: #9d4f00;
+	background: #ffffff;
+	font-weight: bold;
+}
+
+#proteccion_datos {
+	border: solid 1px #666666;
+	padding: 5px;
+}
+
+#proteccion_datos p {
+	text-align: justify;
+	text-indent: 20px;
+	padding: 10px;
+}
+
+#botonoes_navegacion {
+	width: 100%;
+	margin-top: 10px;
+    border-top:solid 1px #cccccc;
+}
+
+#botonoes_navegacion p.izq {
+	float: left;
+}
+
+#botonoes_navegacion p.der {
+	float: right;
+}
+
+* {
+	outline: none;
+}
+
+.pestanas{
+	width: 100%;
+    border-bottom: solid 1px #E6D3BF;
+    background-color: white;
+}
+
+.pestanas ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    border: solid 1px #E6D3BF;
+}
+
+.pestanas ul li.curso_seleccionado {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #E6D3BF;
+    border-right: 1px solid #E6D3BF;
+    border-left: 1px solid #E6D3BF;
+    background-color: #E6D3BF;
+}
+
+.separador_fase {
+	width: 100%;
+	border-bottom: solid 1px #E6D3BF;
+    background-color: white;
+}
+
+.resumen_datos {
+	margin: 20px auto;
+	width: 30%;
+}
+
+.resumen_notas {
+	margin: 20px auto;
+	width: 60%;
+	border: solid 4px #E6D3BF;
+}

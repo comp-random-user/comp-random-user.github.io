@@ -1,0 +1,131 @@
+#cabecera {
+	background: #ffffff url('../images/cabecera.jpg') no-repeat top left;
+	color: #666666;
+	height: 110px;
+	margin: 0 0 0 5px;
+	text-align: right;
+}
+
+#cabecera h1 {
+	display: none;
+}
+
+#cabecera h2 {
+	display: none;
+}
+
+#cabecera p {
+	text-align: right;
+	padding-top: 87px;
+	margin-right: 1.5em;
+}
+
+#cabecera p a {
+	text-transform: uppercase;
+	background: #000000;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 0.7em;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+
+#cabecera p a:hover {
+	text-decoration: underline;
+}
+
+#cabecera p a.enlaceUniovi {
+	padding-left: 30px;
+	background: #000000 url('../images/escudoUniovi.jpg') no-repeat left
+		center;
+	color: #00776e;
+}
+
+#idioma {
+	float: right;
+	margin-right: 1em;
+	color: #ffffff;
+	margin: 0.5em 1em 0.5em 0;
+}
+
+#idioma a img {
+	border: none;
+}
+
+#migas {
+	background: #ffffff;
+	color: #9d4f00;
+	margin: 0.5em 0 1em 0.7em;
+	font-size: 0.8em;
+}
+
+#migas a {
+	background: #ffffff;
+	color: #666666;
+	text-decoration: none;
+}
+
+#migas a:hover {
+	text-decoration: underline;
+}
+
+.idioma {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	cursor: pointer;
+	width: 16px;
+	height: 11px;
+}
+
+#cabecera #nombreLogin
+{
+   font-size: 0.9em;
+   color: #c3c3c3;
+   background: #000000;
+   float: left; 
+   margin-top: 88px;
+   margin-left: 115px;
+}
+
+.Castellano {
+	background: url(../images/es.png) no-repeat transparent;
+}
+
+.English {
+	background: url(../images/gb.png) no-repeat transparent;
+}
+
+.Asturianu {
+	background: url(../images/Asturianu.jpg) no-repeat transparent;
+}
+
+.Alemán {
+	background: url(../images/de.png) no-repeat transparent;
+}
+
+.Francés {
+	background: url(../images/fr.png) no-repeat transparent;
+}
+
+.Italiano {
+	background: url(../images/it.png) no-repeat transparent;
+}
+
+.Portugués {
+	background: url(../images/pt.png) no-repeat transparent;
+}
+
+.Árabe {
+	background: url(../images/ae.png) no-repeat transparent;
+}
+
+.botonSalir {
+	border: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background: transparent;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 0.7em;
+}

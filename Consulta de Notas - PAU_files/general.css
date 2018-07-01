@@ -1,0 +1,306 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #e5e5e5;
+	color: #666666;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#contenedor {
+	background: #ffffff;
+	color: #666666;
+	margin: 0 auto;
+	width: 950px;
+	border-left: 1px solid #c3c3c3;
+	border-right: 1px solid #c3c3c3;
+	text-align: left;
+}
+
+#contenedor a#enlaceSaltarAContenidos {
+	display: none;
+}
+
+.formCentrado {
+	padding: 2px;
+	display: block;
+	width: 290px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.formCentrado2 {
+	padding: 2px;
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.formCentrado3 {
+	padding: 2px;
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.der {
+	text-align: right;
+	font-weight: bold;
+	color: #9d4f00;
+}
+
+.errorException {
+	color: red;
+	background: transparent;
+	font-weight: bold;
+}
+
+.enlace {
+	border: 0;
+	padding: 0;
+	color: #9d4f00;
+	background: transparent;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+
+.enlaceCopy {
+	border: solid 1px #666666;
+	padding: 0;
+	color: #9d4f00;
+	background: transparent;
+	cursor: pointer;
+	font-size: 1em;
+    margin: 5px;
+}
+
+.disabled {
+	border: 0;
+	padding: 0;
+	color: #666666;
+	background: transparent;
+	text-decoration: line-through;
+	font-size: smaller;
+}
+
+form.forms label {
+	float: left;
+	width: 41%;
+	margin-right: 20px;
+	padding-top: 3px;
+	text-align: right;
+	font-weight: bold;
+}
+
+form.formsCuestion label {
+	float: left;
+	width: 50%;
+	margin-right: 20px;
+	padding-top: 3px;
+	text-align: right;
+	font-weight: bold;
+}
+
+form.forms input[type="text"] {
+	width: 200px;
+}
+
+select {
+	width: 200px;
+}
+
+.selectLong {
+	width: 260px;
+}
+
+.corto {
+	width: 50px;
+}
+
+table tbody tr td label {
+	width: 100% !important;
+	text-align: left !important;
+	font-weight: normal !important;
+}
+
+table tr.par
+{
+   background: #faf6f2;
+   color: #666666;
+}
+
+.accion {
+	width: 100px;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+.rojo {
+	color: #FF0000;
+	background: #ffffff;
+}
+
+#boton_clean p {
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+boton_clean_top{
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+.boton_form {
+	text-align: center;
+}
+
+#contenido table.tablasMat {
+	margin-top: 1.1em;
+	margin-bottom: 1.1em;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 0.85em;
+	width: 100%;
+}
+
+#contenido table.tablasMat caption {
+	display: none;
+}
+
+#contenido table.tablasMat th {
+	background: #e6d3bf;
+	color: #9d4f00;
+	padding: 3px 15px;
+}
+
+#contenido table.tablasMat tr.head {
+	background: #e6d3bf;
+	color: #9d4f00;
+	padding: 3px 15px;
+	font-weight: bold;
+}
+
+#contenido table.tablasMat td {
+	padding: 3px 15px;
+}
+
+#contenido form table.tablasMat {
+	margin-top: 1.1em;
+	margin-bottom: 1.1em;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 0.85em;
+	width: 100%;
+}
+
+#contenido form table.tablasMat input {
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+}
+
+#contenido form table.tablasMat caption {
+	display: none;
+}
+
+#contenido form table.tablasMat th {
+	background: #e6d3bf;
+	color: #9d4f00;
+	padding: 3px 15px;
+}
+
+#contenido form table.tablasMat tr.head {
+	background: #e6d3bf;
+	color: #9d4f00;
+	padding: 3px 15px;
+	font-weight: bold;
+}
+
+#contenido form table.tablasMat td {
+	padding: 3px 15px;
+}
+
+#contenido table.tablasMatPeque {
+	margin-top: 1.1em;
+	margin-bottom: 1.1em;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 0.85em;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#contenido table.tablasMatPeque caption {
+	display: none;
+}
+
+#contenido table.tablasMatPeque th {
+	background: #e6d3bf;
+	color: #9d4f00;
+	padding: 3px 15px;
+}
+
+#contenido table.tablasMatPeque tr.head {
+	background: #e6d3bf;
+	color: #9d4f00;
+	padding: 3px 15px;
+	font-weight: bold;
+}
+
+#contenido table.tablasMatPeque td {
+	padding: 3px 15px;
+}
+
+
+#contenido input.boton{
+	background: #e1e1e1;
+    color: #333333;
+    border: 1px solid #999999;
+}
+
+#contenido input.boton:hover{
+	border: 1px solid #c66400;
+}
+
+img {
+	border: none;
+}
+
+.listSangrada {
+    margin-left: 50px;
+}
+
+.listMenosSangrada {
+    margin-left: 30px;
+}
+
+.resumen {
+	margin: 0 0 0 40px;
+}
+
+.resumen li{
+    padding-bottom: 10px;
+}
+
+.info {
+    margin: 10px;
+    padding: 10px;
+}
+
+.imagenTabla {
+	width: 1.5em;
+	height: 1.5em;
+}
